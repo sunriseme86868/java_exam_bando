@@ -5,7 +5,9 @@ public class Exam6 {
     public static void main(String[] args) {
     LocalDateTime ieyasu = LocalDateTime.of(1543,02,10,05,12,00);
 
+    DateTimeFormatter fmt1 = DateTimeFormatter.ofPattern()
     System.out.println("徳川家康の誕生日は" + ieyasu + "です。");
+    
 
     ieyasu = ieyasu.plusYears(1);
     ieyasu = ieyasu.plusMonths(2);
