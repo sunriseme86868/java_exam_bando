@@ -1,0 +1,6 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "/Users/asahi/Java/Java_Basic/exam/7-2-2.test-dbaccess2/**/*.jar"
+    ]
+}

@@ -15,10 +15,20 @@ public class ShoppingCart extends LinkedList{
     public int getTotalPrice(){
         int total=0;
         for(Item item : itemlist){
-            total += itemlist.size;
+            total += item.getPrice();
         }
-        return total
+        //合計金額は、元のItemから抽出するべき。
+        return total;
+
     }
-    public 
+
+    public double getAverage(){
+        if(ItemSize() == 0){
+            return 0;
+        }
+        for
+
+        }
+    }
 
 }
