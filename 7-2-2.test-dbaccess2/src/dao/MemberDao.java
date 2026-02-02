@@ -104,8 +104,6 @@ public class MemberDao {
 			DBManager.closeConnection(con);
 		}
 	}
-
-	public static int update(Member member){
 		Connection con = DBManager.createConnection();
 		String sql = "UPDATE "+TABLE_NAME+" SET name=?,age=?,dep_id=? WHERE id =?";
 		try {
@@ -124,5 +122,4 @@ public class MemberDao {
 			DBManager.closeConnection(con);
 		}
 	}
-
 }
