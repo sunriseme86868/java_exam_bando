@@ -26,9 +26,6 @@ public class ShoppingCart extends LinkedList{
         if(ItemSize() == 0){
             return 0;
         }
-        for
 
         }
     }
-
-}
